@@ -27,124 +27,217 @@
             <div class="marca">
                 <a href="index.html">CACXUS</a>
             </div>
-            <label for="campo-pesquisa" class="sr-only">Buscar produtos</label>
-            <input type="text" id="campo-pesquisa" placeholder="Pesquisar" name="busca">
+            <div class="campo-pesquisa-wrapper">
+                <label for="campo-pesquisa" class="sr-only">Buscar produtos</label>
+                <input type="text" id="campo-pesquisa" placeholder="Pesquisar" name="busca">
+                <div id="sugestoes" class="sugestoes oculto">
+                    <ul>
+                        <li><a href="#">Tênis Nike Air Force 1</a></li>
+                        <li><a href="#">Adidas Runner</a></li>
+                        <li><a href="#">Chuteira Mercurial</a></li>
+                        <li><a href="#">Nike Dunk</a></li>
+                    </ul>
+                </div>
+            </div>
+            
             <nav class="nav">
                 <a href="#">Favoritos</a>
                 <a href="login.html">Entrar</a>
-                <a href="carrinhovazio.html"><img src="https://cdn-icons-png.flaticon.com/512/126/126510.png" alt="carrinho"></a>
+                <a href="carrinhovazio.html"><img src="https://cdn-icons-png.flaticon.com/512/126/126510.png" alt="carrinho de compras"></a>
+                <button id="toggle-theme">☀</button>
             </nav>
         </div>
+    </header>
 
+    <main>
         <div class="categorias">
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt="menu">Todas as categorias</a>
+            <a href="#" id="btn-categorias"><img src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt="menu de categorias">Todas as categorias</a>
         
             <div class="outras">
                 <a href="#">Lançamentos</a>
                 <a href="#">Corrida</a>
                 <a href="#">Futebol</a>
-                <a href="#">Sportstyle</a>
-                <a href="#">Infantil</a>
-                <a href="#">Outlet</a>
+                <a href="#">Casual</a>
                 <a href="#">Cupons</a>
             </div>
         </div>
 
-        <div class="destaque">
-            <h2>Produtos em destaque</h2>
 
-            <div class="produtos_destaque">
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="adidas_runner.html"><img
-                                src="https://artwalk.vtexassets.com/arquivos/ids/232430/Tenis-adidas-Smooth-Runner-Masculino-Branco.jpg?v=637532212693900000"
-                                alt="Adidas"></a>
-                        <p>Adidas Runner</p>
+        <section>
+            <h2 id="produtos-em-destaque">Produtos em destaque</h2>
+            <div class="destaque">
+                
+                <button id="seta-esquerda">&#8592;</button>
+                <div class="produtos_destaque">
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="adidas_runner.html"><img
+                                    src="https://artwalk.vtexassets.com/arquivos/ids/232430/Tenis-adidas-Smooth-Runner-Masculino-Branco.jpg?v=637532212693900000"
+                                    alt="Tênis Adidas Smooth Runner"></a>
+                            <p>Adidas Runner</p>
+                        </div>
+                    </div>
+
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="air_force.html"><img src="https://imgnike-a.akamaihd.net/1920x1920/02580551.jpg" alt="Tênis Nike Air Force"></a>
+                            <p>Nike Air Force</p>
+                        </div>
+                    </div>
+
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="vans_old.html"><img
+                                    src="https://balishoes.vtexassets.com/arquivos/ids/183895/Tenis-Vans-Skate-Old-Skool-Skate-VN0A5FCBY28_1.jpg?v=637559929815800000"
+                                    alt="Tênis Vans Old Skool"></a>
+                            <p>Vans Old Skool</p>
+                        </div>
+                    </div>
+
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="new_balance.html"><img
+                                    src="https://authenticfeet.vtexassets.com/arquivos/ids/417153/B80LJ-C-001-1.jpg?v=638471549802530000"
+                                    alt="Tênis new balance"></a>
+                            <p>New Balance 480</p>
+                        </div>
+                    </div>
+
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="chuteira.html"><img src="https://acdn-us.mitiendanube.com/stores/001/653/854/products/pt-br-canvadesignchallenge-arco-iris-2023-06-06t170426-6051-0bade753a24a14caa416860819319342-640-0.png" alt="Chuteira nike Mercurial"></a>
+                            <p>Chuteira Mercurial</p>
+                        </div>
+                    </div>
+
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="dunk.html"><img
+                                    src="https://authenticfeet.vtexassets.com/arquivos/ids/492249-800-800?v=638694340893300000&width=800&height=800&aspect=true"
+                                    alt="Tênis nike Dunk"></a>
+                            <p>Nike Dunk</p>
+                        </div>
+                    </div>
+                    
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="jordan.html"><img
+                                    src="https://cdn.awsli.com.br/257/257889/produto/144384433/nike---air-jordan-1-retro-chicago--1--58wcqea6pz.png"
+                                    alt="Tênis nike air Jordan"></a>
+                            <p>Nike Jordan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="court.html"><img
+                                    src="https://cdn.sneakers123.com/release/374008/nike-court-vision-next-nature-dh3158-600.jpg"
+                                    alt="Tênis nike Court vision"></a>
+                            <p>Nike Court Vision</p>
+                        </div>
+                    </div>
+                    
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="tn.html"><img
+                                    src="https://cms-cdn.thesolesupplier.co.uk/2022/10/nike-tn-air-max-plus-yellow-pink-gradient-dx0755-600_w672_h672_pad_.jpg.webp"
+                                    alt="Tênis nike TN"></a>
+                            <p>Nike TN</p>
+                        </div>
+                    </div>
+                    
+                    <div class="Produto">
+                        <div class="imagem-com-texto">
+                            <a href="airforce2.html"><img
+                                    src="https://authenticfeet.vtexassets.com/arquivos/ids/440348/FN473-1-200-1.jpg?v=638574465527630000"
+                                    alt="Chuteira nike Mercurial"></a>
+                            <p>Nike Air Force</p>
+                        </div>
                     </div>
                 </div>
+                <button id="seta-direita">&#8594;</button>
+            </div>
+        </section>
 
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="air_force.html"><img src="https://imgnike-a.akamaihd.net/1920x1920/02580551.jpg" alt="Nike"></a>
-                        <p>Nike Air Force</p>
+
+        <section>
+            <h2 id="com-base-no-historico">Com base no seu histórico</h2>
+            <div class="historico">
+
+                <div class="produtos_historico">
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="dunk.html"><img src="https://authenticfeet.vtexassets.com/arquivos/ids/492249-800-800?v=638694340893300000&width=800&height=800&aspect=true" alt="Tênis nike Dunk"></a>
+                            <p>Nike Dunk</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="vans_old.html"><img
-                                src="https://balishoes.vtexassets.com/arquivos/ids/183895/Tenis-Vans-Skate-Old-Skool-Skate-VN0A5FCBY28_1.jpg?v=637559929815800000"
-                                alt="Vans"></a>
-                        <p>Vans Old Skool</p>
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="jordan.html"><img src="https://cdn.awsli.com.br/257/257889/produto/144384433/nike---air-jordan-1-retro-chicago--1--58wcqea6pz.png" alt="Tênis nike air Jordan"></a>
+                            <p>Nike Jordan</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="new_balance.html"><img
-                                src="https://authenticfeet.vtexassets.com/arquivos/ids/417153/B80LJ-C-001-1.jpg?v=638471549802530000"
-                                alt="NB"></a>
-                        <p>New Balance 480</p>
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="court.html"><img
+                                    src="https://cdn.sneakers123.com/release/374008/nike-court-vision-next-nature-dh3158-600.jpg"
+                                    alt="Tênis nike Court vision"></a>
+                            <p>Nike Court Vision</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="chuteira.html"><img src="https://acdn-us.mitiendanube.com/stores/001/653/854/products/pt-br-canvadesignchallenge-arco-iris-2023-06-06t170426-6051-0bade753a24a14caa416860819319342-640-0.png" alt="Mercurial"></a>
-                        <p>Chuteira Mercurial</p>
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="tn.html"><img
+                                    src="https://cms-cdn.thesolesupplier.co.uk/2022/10/nike-tn-air-max-plus-yellow-pink-gradient-dx0755-600_w672_h672_pad_.jpg.webp"
+                                    alt="Tênis nike TN"></a>
+                            <p>Nike TN</p>
+                        </div>
+                    </div>
+
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="airforce2.html"><img src="https://authenticfeet.vtexassets.com/arquivos/ids/440348/FN473-1-200-1.jpg?v=638574465527630000" alt="Chuteira nike Mercurial"></a>
+                            <p>Nike Air Force</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+        </section>
 
+    </main>
 
-        <div class="historico">
-            <h2>Com base no seu histórico</h2>
+    <footer>
 
-            <div class="produtos_historico">
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="dunk.html"><img src="https://authenticfeet.vtexassets.com/arquivos/ids/492249-800-800?v=638694340893300000&width=800&height=800&aspect=true" alt="Dunk"></a>
-                        <p>Nike Dunk</p>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="jordan.html"><img src="https://cdn.awsli.com.br/257/257889/produto/144384433/nike---air-jordan-1-retro-chicago--1--58wcqea6pz.png" alt="Jordan"></a>
-                        <p>Nike Jordan</p>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="court.html"><img
-                                src="https://cdn.sneakers123.com/release/374008/nike-court-vision-next-nature-dh3158-600.jpg"
-                                alt="Court"></a>
-                        <p>Nike Court Vision</p>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="tn.html"><img
-                                src="https://cms-cdn.thesolesupplier.co.uk/2022/10/nike-tn-air-max-plus-yellow-pink-gradient-dx0755-600_w672_h672_pad_.jpg.webp"
-                                alt="TN"></a>
-                        <p>Nike TN</p>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="airforce2.html"><img src="https://authenticfeet.vtexassets.com/arquivos/ids/440348/FN473-1-200-1.jpg?v=638574465527630000" alt="Mercurial"></a>
-                        <p>Nike Air Force</p>
-                    </div>
-                </div>
+        <section class="contato-footer">
+            <h2>Contatos</h2>
+            <div class="lado-a-lado">
+                <p>Email: cacxus@gmail.com</p>
+                <p>Telefone: (11) 99999-9999</p>
             </div>
-        </div>
+        </section>
+    
+        <section class="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <div class="lado-a-lado">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </section>
+    
 
-    </header>
+        <section class="direitos">
+            <h2>Direitos</h2>
+            <p>&copy; 2025 CACXUS. Todos os direitos reservados.</p>
+        </section>
+
+    </footer>
+      
+    <script defer src="script.js"></script>
 
 </body>
 
