@@ -27,154 +27,201 @@
             <div class="marca">
                 <a href="index.html">CACXUS</a>
             </div>
-            <label for="campo-pesquisa" class="sr-only">Buscar produtos</label>
-            <input type="text" id="campo-pesquisa" placeholder="Pesquisar" name="busca">
+            <div class="campo-pesquisa-wrapper">
+                <label for="campo-pesquisa" class="sr-only">Buscar produtos</label>
+                <input type="text" id="campo-pesquisa" placeholder="Pesquisar" name="busca">
+                <div id="sugestoes" class="sugestoes oculto">
+                    <ul>
+                        <li><a href="#">Tênis Nike Air Force 1</a></li>
+                        <li><a href="#">Adidas Runner</a></li>
+                        <li><a href="#">Chuteira Mercurial</a></li>
+                        <li><a href="#">Nike Dunk</a></li>
+                    </ul>
+                </div>
+            </div>
+            
             <nav class="nav">
                 <a href="#">Favoritos</a>
                 <a href="login.html">Entrar</a>
-                <a href="carrinhovazio.html"><img src="https://cdn-icons-png.flaticon.com/512/126/126510.png" alt="carrinho"></a>
+                <a href="carrinhovazio.html"><img src="https://cdn-icons-png.flaticon.com/512/126/126510.png"
+                        alt="carrinho de compras"></a>
+                <button id="toggle-theme">☀</button>
             </nav>
         </div>
-
-        <div class="categorias">
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt="menu">Todas as
-                categorias</a>
-
-            <div class="outras">
-                <a href="#">Lançamentos</a>
-                <a href="#">Corrida</a>
-                <a href="#">Futebol</a>
-                <a href="#">Sportstyle</a>
-                <a href="#">Infantil</a>
-                <a href="#">Outlet</a>
-                <a href="#">Cupons</a>
-            </div>
-        </div>
-
-        <div class="container">
-
-            <div class="img-tenis">
-                <img src="https://authenticfeet.vtexassets.com/arquivos/ids/492249-800-800?v=638694340893300000&width=800&height=800&aspect=true"
-                    alt="Dunk">
-
-                <div class="adicionar">
-                    <a href="carrinhodunk.html">Adicionar ao carrinho</a>
-                </div>
-
-                <div class="favoritar">
-                    <a href="#">Favoritar</a>
-                </div>
-            </div>
-
-            <div class="descricao">
-                <h2>Tênis Nike Dunk<br>Low</h2>
-
-                <h4>Casual</h4>
-
-                <div class="avaliacao">
-                    <img src="avaliacao2.jpg" alt="Avaliação">
-                </div>
-
-                <h5>R$ 649,99</h5>
-
-                <p>Cores:</p>
-
-                <img src="coresdunk.png" alt="Cores">
-
-                <p>Tamanhos:</p>
-
-                <div class="tamanhos">
-                    <a href="#">38</a>
-                    <a href="#">39</a>
-                    <a href="#">40</a>
-                    <a href="#">41</a>
-                </div>
-
-                <div class="tamanhos">
-                    <a href="#">42</a>
-                    <a href="#">43</a>
-                    <a href="#">44</a>
-                    <a href="#">45</a>
-                </div>
-            </div>
-
-            <div class="informacao">
-                <h3>Descrição</h3>
-
-                <p>
-                    O Tênis Nike Dunk Low é a escolha perfeita para quem valoriza estilo e conforto no dia
-                    a dia.<br>
-                    Com um design clássico e versátil, ele combina com diferentes looks, do casual ao mais
-                    despojado.<br>
-                    Sua construção em couro proporciona durabilidade e suporte, enquanto a entressola com amortecimento
-                    Nike Dunk garante uma
-                    pisada mais suave e confortável.
-                </p>
-
-                <a href="#">Ver mais detalhes do produto</a>
-
-                <div class="h5">
-                    <h5>Cor: Vermelho & Branco</h5>
-                    <h5>Estilo: Dunk Low</h5>
-                </div>
-
-                <div class="click1">
-                    <a href="#">Calcular frete e entrega</a>
-                </div>
-
-                <div class="click2">
-                    <a href="#">Ver avaliações (942)</a>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="historico">
-            <h2>Você também pode gostar</h2>
-
-            <div class="produtos_historico">
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="vans_old.html"><img src="https://balishoes.vtexassets.com/arquivos/ids/183895/Tenis-Vans-Skate-Old-Skool-Skate-VN0A5FCBY28_1.jpg?v=637559929815800000" alt="Dunk"></a>
-                        <p>Vans Old Skool</p>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="jordan.html"><img
-                                src="https://cdn.awsli.com.br/257/257889/produto/144384433/nike---air-jordan-1-retro-chicago--1--58wcqea6pz.png"
-                                alt="Jordan"></a>
-                        <p>Nike Jordan</p>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="court.html"><img src="https://cdn.sneakers123.com/release/374008/nike-court-vision-next-nature-dh3158-600.jpg" alt="Court"></a>
-                        <p>Nike Court Vision</p>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="tn.html"><img src="https://cms-cdn.thesolesupplier.co.uk/2022/10/nike-tn-air-max-plus-yellow-pink-gradient-dx0755-600_w672_h672_pad_.jpg.webp" alt="TN"></a>
-                        <p>Nike TN</p>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="imagem-com-texto">
-                        <a href="airforce2.html"><img
-                                src="https://authenticfeet.vtexassets.com/arquivos/ids/440348/FN473-1-200-1.jpg?v=638574465527630000"
-                                alt="Mercurial"></a>
-                        <p>Nike Air Force</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </header>
+
+
+    <main>
+        <section>
+            <div class="categorias">
+                <a href="#" id="btn-categorias"><img src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt="menu de categorias">Todas as categorias</a>
+
+                <div class="outras">
+                    <a href="#">Lançamentos</a>
+                    <a href="#">Corrida</a>
+                    <a href="#">Futebol</a>
+                    <a href="#">Sportstyle</a>
+                    <a href="#">Cupons</a>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="img-tenis">
+                    <img src="https://authenticfeet.vtexassets.com/arquivos/ids/492249-800-800?v=638694340893300000&width=800&height=800&aspect=true"
+                        alt="Tênis Nike Dunk">
+
+                    <div class="adicionar">
+                        <a href="carrinhodunk.html">Adicionar ao carrinho</a>
+                    </div>
+
+                    <div class="favoritar">
+                        <a href="#">Favoritar</a>
+                    </div>
+                </div>
+
+                <div class="descricao">
+                    <h2>Tênis Nike Dunk<br>Low</h2>
+
+                    <h4>Casual</h4>
+
+                    <div class="avaliacao">
+                        <img src="avaliacao2.jpg" alt="Avaliação Tênis Nike Dunk Low">
+                    </div>
+
+                    <h5>R$ 649,99</h5>
+
+                    <p>Cores:</p>
+
+                    <img src="coresdunk.png" alt="Cores do Tênis Nike Dunk Low">
+
+                    <p>Tamanhos:</p>
+
+                    <div class="tamanhos">
+                        <a href="#">38</a>
+                        <a href="#">39</a>
+                        <a href="#">40</a>
+                        <a href="#">41</a>
+                    </div>
+
+                    <div class="tamanhos">
+                        <a href="#">42</a>
+                        <a href="#">43</a>
+                        <a href="#">44</a>
+                        <a href="#">45</a>
+                    </div>
+                </div>
+
+                <div class="informacao">
+                    <h3>Descrição</h3>
+
+                    <p>
+                        O Tênis Nike Dunk Low é a escolha perfeita para quem valoriza estilo e conforto no dia
+                        a dia.<br>
+                        Com um design clássico e versátil, ele combina com diferentes looks, do casual ao mais
+                        despojado.<br>
+                        Sua construção em couro proporciona durabilidade e suporte, enquanto a entressola com amortecimento
+                        Nike Dunk garante uma
+                        pisada mais suave e confortável.
+                    </p>
+
+                    <a href="#">Ver mais detalhes do produto</a>
+
+                    <div class="h5">
+                        <h5>Cor: Vermelho & Branco</h5>
+                        <h5>Estilo: Dunk Low</h5>
+                    </div>
+
+                    <div class="click1">
+                        <a href="#">Calcular frete e entrega</a>
+                    </div>
+
+                    <div class="click2">
+                        <a href="#">Ver avaliações (942)</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="historico">
+                <h2>Você também pode gostar</h2>
+
+                <div class="produtos_historico">
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="vans_old.html"><img src="https://balishoes.vtexassets.com/arquivos/ids/183895/Tenis-Vans-Skate-Old-Skool-Skate-VN0A5FCBY28_1.jpg?v=637559929815800000" alt="Tênis Nike Dunk"></a>
+                            <p>Vans Old Skool</p>
+                        </div>
+                    </div>
+
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="jordan.html"><img
+                                    src="https://cdn.awsli.com.br/257/257889/produto/144384433/nike---air-jordan-1-retro-chicago--1--58wcqea6pz.png"
+                                    alt="Tênis Nike Air Jordan"></a>
+                            <p>Nike Jordan</p>
+                        </div>
+                    </div>
+
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="court.html"><img src="https://cdn.sneakers123.com/release/374008/nike-court-vision-next-nature-dh3158-600.jpg" alt="Tênis Nike Court Vision"></a>
+                            <p>Nike Court Vision</p>
+                        </div>
+                    </div>
+
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="tn.html"><img src="https://cms-cdn.thesolesupplier.co.uk/2022/10/nike-tn-air-max-plus-yellow-pink-gradient-dx0755-600_w672_h672_pad_.jpg.webp" alt="Tênis Nike TN"></a>
+                            <p>Nike TN</p>
+                        </div>
+                    </div>
+
+                    <div class="produto">
+                        <div class="imagem-com-texto">
+                            <a href="airforce2.html"><img
+                                    src="https://authenticfeet.vtexassets.com/arquivos/ids/440348/FN473-1-200-1.jpg?v=638574465527630000"
+                                    alt="Chuteira Nike Mercurial"></a>
+                            <p>Nike Air Force</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+    
+        <section class="contato-footer">
+            <h2>Contatos</h2>
+            <div class="lado-a-lado">
+                <p>Email: cacxus@gmail.com</p>
+                <p>Telefone: (11) 99999-9999</p>
+            </div>
+        </section>
+    
+        <section class="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <div class="lado-a-lado">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </section>
+    
+    
+        <section class="direitos">
+            <h2>Direitos</h2>
+            <p>&copy; 2025 CACXUS. Todos os direitos reservados.</p>
+        </section>
+    
+    </footer>
+
+    <script defer src="script.js"></script>
 
 </body>
 
