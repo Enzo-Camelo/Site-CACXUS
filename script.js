@@ -50,6 +50,22 @@ const elementos = [
   document.querySelector('.container-login'),
   document.querySelector('.social-text'),
   document.querySelector('.flexbox'),
+  document.querySelector('.titulo-faq-solicitar'),
+  document.querySelector('.desc-faq-solicitar'),
+  document.querySelector('.titulo-faq-prazo'),
+  document.querySelector('.desc-faq-prazo'),
+  document.querySelector('.titulo-faq-login'),
+  document.querySelector('.desc-faq-login'),
+  document.querySelector('.titulo-faq-senha'),
+  document.querySelector('.desc-faq-senha'),
+  document.querySelector('.titulo-faq-alterar'),
+  document.querySelector('.desc-faq-alterar'),
+  document.querySelector('.titulo-faq-compra'),
+  document.querySelector('.desc-faq-compra'),
+  document.querySelector('.titulo-faq-pedido'),
+  document.querySelector('.desc-faq-pedido'),
+  document.querySelector('.titulo-faq-acompanhar'),
+  document.querySelector('.desc-faq-acompanhar')
 ];
 
 // Função para aplicar ou remover o modo escuro

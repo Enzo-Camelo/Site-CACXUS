@@ -389,6 +389,26 @@ footer.dark-mode .lado-a-lado p {
     color: #fff;
 }
 
+.titulo-faq-pedido.dark-mode h2, 
+.desc-faq-pedido.dark-mode p,
+.titulo-faq-solicitar.dark-mode h2,
+.desc-faq-solicitar.dark-mode p,
+.titulo-faq-acompanhar.dark-mode h2,
+.desc-faq-acompanhar.dark-mode p,
+.titulo-faq-prazo.dark-mode h2,
+.desc-faq-prazo.dark-mode p,
+.titulo-faq-senha.dark-mode h2,
+.desc-faq-senha.dark-mode p,
+.titulo-faq-login.dark-mode h2,
+.desc-faq-login.dark-mode p,
+.titulo-faq-compra.dark-mode h2,
+.desc-faq-compra.dark-mode p,
+.titulo-faq-alterar.dark-mode h2,
+.desc-faq-alterar.dark-mode p {
+    color: #fff;
+}
+
+
 .logo img {
     display: flex;
     width: 60px;
@@ -428,7 +448,7 @@ nav {
 .barra nav {
     display: flex;
     justify-content: flex-end;
-    gap: 60px;
+    gap: 80px;
     align-items: center;
     padding: 20px 0;
 }
@@ -797,7 +817,7 @@ footer {
 }
 
 .container .adicionar a {
-    margin-top: 0px;
+    margin-top: 20px;
     border: 1px solid #000;
     border-radius: 40px;
     padding: 20px 30px;
@@ -813,26 +833,6 @@ footer {
 }
 
 .container .adicionar a:hover {
-    transform: scale(1.03);
-}
-
-.container .favoritar a {
-    margin-top: 20px;
-    border: 1px solid #000;
-    border-radius: 40px;
-    padding: 20px 30px;
-    font-family: Arial;
-    font-size: 23px;
-    color: #000;
-    background-color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.container .favoritar a:hover {
     transform: scale(1.03);
 }
 
@@ -2182,6 +2182,149 @@ footer {
     transform: scale(1.03);
 }
 
+.titulo-faq-pedido {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    text-align: center;
+    height: 80px;
+    font-size: 22px;
+
+
+    
+}
+
+.desc-faq-pedido {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-align: center;
+    line-height: 1.6;
+
+}
+
+.titulo-faq-solicitar {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    text-align: center;
+    height: 80px;
+    font-size: 22px;
+
+}
+
+.desc-faq-solicitar {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-align: center;
+    line-height: 1.6;
+
+}
+
+
+.titulo-faq-acompanhar{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    text-align: center;
+    height: 80px;
+    font-size: 22px;
+
+}
+
+.desc-faq-acompanhar{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.titulo-faq-prazo {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    text-align: center;
+    height: 80px;
+    font-size: 22px;
+
+}
+
+.desc-faq-prazo {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-align: center;
+    line-height: 1.6;
+    
+}
+
+.titulo-faq-senha{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    text-align: center;
+    height: 80px;
+    font-size: 22px;
+
+
+}
+
+.desc-faq-senha{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-align: center;
+    line-height: 1.6;
+
+    
+}
+
+.titulo-faq-login{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    text-align: center;
+    height: 80px;
+    font-size: 22px;
+
+
+}
+
+.desc-faq-login{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-align: center;
+    line-height: 1.6;
+
+    
+}
+
+.titulo-faq-compra{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    text-align: center;
+    height: 80px;
+    font-size: 22px;
+
+
+}
+
+.desc-faq-compra{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-align: center;
+    line-height: 1.6;
+    
+}
+
+.titulo-faq-alterar{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    text-align: center;
+    height: 80px;
+    font-size: 22px;
+
+}
+
+.desc-faq-alterar{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-align: center;
+    line-height: 1.6;
+    
+}
+
 /* media queries para responsividade */
 @media (max-width: 1700px) {
     .box .produto-blur {
@@ -2192,9 +2335,28 @@ footer {
         margin-left: 330px;
     }
 
+    .box .identificacao-blur {
+        margin-left: 260px;
+        height: 500px;
+    }
+
     .box .resumo-blur {
         width: 340px;
         margin-left: 230px;
+    }
+
+    .box .pagamento {
+        width: 340px;
+        height: 500px;
+        margin-left: 190px;
+    }
+
+    .box .pagamento .resumo-pagamento p {
+        font-size: 17px;
+    }
+
+    .box .pagamento .finalizar a {
+        font-size: 15px;
     }
 
     .container-carrinho .produto {
@@ -2283,6 +2445,10 @@ footer {
         height: 530px;
     }
 
+    .box .identificacao-blur {
+        margin-left: 170px;
+    }
+
     .box .identificacao .dados {
         width: 300px;
     }
@@ -2290,6 +2456,31 @@ footer {
     .box .resumo-blur {
         width: 340px;
         margin-left: 100px;
+    }
+
+    .box .pagamento {
+        margin-left: 100px;
+    }
+
+    .box .pagamento h2 {
+        font-size: 25px;
+    }
+
+    .box .pagamento p {
+        font-size: 17px;
+    }
+
+    .box .pagamento .meios-pagamento a {
+        font-size: 15px;
+    }
+
+    .box .pagamento .resumo-pagamento p {
+        font-size: 15px;
+    }
+
+    .box .pagamento .finalizar a {
+        margin-top: 50px;
+        font-size: 13px;
     }
 
     .box .resumo-blur h2 {
@@ -2472,6 +2663,15 @@ footer {
         margin-left: 160px;
     }
 
+    .box .identificacao-blur {
+        width: 330px;
+        margin-left: 10px;
+    }
+
+    .box .pagamento {
+        margin-left: 30px;
+    }
+
     .box .identificacao .dados {
         width: 250px;
     }
@@ -2483,25 +2683,31 @@ footer {
     .container-carrinho .quantidade .botao-quantidade {
         padding: 0px;
     }
+
     .container-carrinho .quantidade .botao-quantidade .diminuir {
         padding: 14px;
     }
+
     .container-carrinho .quantidade .botao-quantidade .um {
         padding: 14px;
     }
+
     .container-carrinho .quantidade .botao-quantidade .aumentar {
         padding: 14px;
     }
+
     .container-carrinho .quantidade .botao-quantidade .diminuir a {
         font-size: 19px;
     }
+
     .container-carrinho .quantidade .botao-quantidade .um p {
         font-size: 19px;
     }
+
     .container-carrinho .quantidade .botao-quantidade .aumentar a {
         font-size: 19px;
     }
-    
+
 
     .container-carrinho .produto {
         margin: 0px;
@@ -2590,15 +2796,18 @@ footer {
     .box .identificacao {
         margin-left: 100px;
     }
+
     .box .identificacao h2 {
         font-size: 25px;
     }
+
     .box .identificacao .dados .nome-ident h3,
     .box .identificacao .dados .cpf-ident h3,
     .box .identificacao .dados .email-ident h3,
     .box .identificacao .dados .endereco-ident h3 {
         font-size: 15px;
     }
+
     .box .identificacao .salvar-endereco a {
         font-size: 15px;
     }
@@ -2609,6 +2818,10 @@ footer {
 
     .box .resumo-blur {
         margin-left: 50px;
+    }
+
+    .box .identificacao {
+        margin-left: 70px;
     }
 
     .box .resumo-e-botao .botao-resumo {
@@ -2680,8 +2893,50 @@ footer {
         font-size: 20px;
     }
 
+    .box .resumo-blur {
+        margin: 10px;
+    }
+
+    .box .resumo-blur p {
+        font-size: 12px;
+    }
+
+    .box .resumo-e-botao .botao-resumo {
+        width: 180px;
+        margin-left: 20px;
+    }
+
+    .box .resumo-e-botao .botao-resumo a {
+        padding: 10px;
+    }
+
     .box .identificacao {
-        margin-left: 90px;
+        margin-left: 20px;
+    }
+
+    .box .pagamento {
+        margin-left: 10px;
+    }
+
+    .box .pagamento .resumo-pagamento p {
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    .box .pagamento .meios-pagamento {
+        margin: 15px;
+        padding: 5px;
+    }
+
+    .box .pagamento .meios-pagamento a {
+        padding: 0 0 0 15px;
+        margin-left: 5px;
+    }
+
+    .box .pagamento .finalizar a {
+        margin-top: 40px;
+        padding: 10px 50px;
+        font-size: 10px;
     }
 
     .box .identificacao .dados {
@@ -2728,7 +2983,7 @@ footer {
         width: 150px;
     }
 
-    .container-carrinho .infocarrinho{
+    .container-carrinho .infocarrinho {
         display: none;
     }
 
@@ -2966,6 +3221,7 @@ footer {
     }
 
     footer {
+        width: auto;
         flex-direction: column;
         padding: 20px;
         font-size: 14px;
@@ -2987,6 +3243,22 @@ footer {
 
     .container .descricao p {
         margin-top: 10px;
+    }
+
+    footer .contato-footer {
+        margin-left: 0%;
+    }
+
+    footer .redes-sociais {
+        margin: 0;
+    }
+
+    footer .direitos {
+        margin-left: 0px;
+    }
+
+    footer .direitos h2 {
+        margin-left: 0px;
     }
 }
 
@@ -3012,8 +3284,45 @@ footer {
         margin: 0 0 20px 0;
     }
 
+    .box .identificacao-blur {
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box .pagamento {
+        margin-top: 50px;
+    }
+
+    .box .pagamento p {
+        font-size: 20px;
+    }
+
+    .box .pagamento .meios-pagamento {
+        text-align: start;
+    }
+
+    .box .pagamento .meios-pagamento a {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .box .pagamento .resumo-pagamento p {
+        font-size: 18px;
+    }
+
+    .box .pagamento .finalizar a {
+        font-size: 20px;
+        padding: 20px 70px;
+    }
+
     .box .identificacao .dados {
         width: 330px;
+    }
+
+    .box .pagamento-blur {
+        display: none;
     }
 
     .box .resumo-e-botao .resumo-blur {
@@ -3045,6 +3354,14 @@ footer {
 
     .container-carrinho .valoruni h2 {
         font-size: 20px;
+    }
+
+    .box .resumo-blur p {
+        font-size: 20px;
+    }
+
+    .box .resumo-e-botao .botao-resumo {
+        width: auto;
     }
 
     .container-carrinho .valortotal p {
@@ -3163,6 +3480,22 @@ footer {
         align-items: flex-start;
     }
 
+    footer .contato-footer {
+        margin-left: 5%;
+    }
+
+    footer .redes-sociais {
+        margin: 0;
+    }
+
+    footer .direitos {
+        margin-left: 70px;
+    }
+
+    footer .direitos h2 {
+        margin-left: 120px;
+    }
+
     .container .img-tenis {
         margin-right: 0;
     }
@@ -3194,14 +3527,4 @@ footer {
     .container .descricao p {
         margin-top: 5px;
     }
-
-    
-
-
-
-
-
-
-
-
 }
