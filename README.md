@@ -2,6 +2,7 @@
 
 Meu protótipo de site feito para um trabalho acadêmico da Universidade Católica de Santa Catarina <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2xPsSgqLyDRN0gQYsdcF2nMZE6n9Fnsarg&s" alt="logo católica" style="width: 2%;"/>
 
+🔗 Link do site: https://enzo-camelo.github.io/Site-CACXUS/
 
 ## 📁 Estrutura
 - `index.html`: Página principal
