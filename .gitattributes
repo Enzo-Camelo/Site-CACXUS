@@ -1,0 +1,5 @@
+# Ignorar arquivos de template e estáticos na contagem de linguagem
+*.html linguist-vendored
+
+# Forçar JavaScript como linguagem principal
+*.js linguist-detectable=true
